@@ -4,32 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titan Capital Loan Process</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
         }
+        header {
+            background-color: #002e5d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-        h1, h2, h3 {
+        h2 {
+            color: #002e5d;
+            font-size: 1.5em;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
             color: #333;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         p {
             color: #555;
             line-height: 1.6;
         }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            background: url('https://www.commbank.com.au/content/dam/commbank/img/icon-tick.svg') no-repeat left center;
+            background-size: 20px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #002e5d;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #001d4a;
+        }
+        footer {
+            background-color: #002e5d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Titan Capital Loan Process</h1>
+    </header>
     <div class="container">
-        <h1>Understanding the Titan Capital Loan Application Process</h1>
         <h2>Step 1: Getting Started</h2>
         <h3>Receive Your Invitation</h3>
         <p>To begin using Titan Capital’s loan application software, you’ll first receive an email invitation. This invitation contains a unique link that will guide you through the initial setup.</p>
@@ -49,6 +105,7 @@
             <li>Navigate to the Titan Capital login page.</li>
             <li>Enter your username and password to access the broker dashboard.</li>
         </ul>
+
         <h2>Step 2: Starting a New Loan Application</h2>
         <h3>Initiate a New Application</h3>
         <p>With your account set up, you can now begin a new loan application directly from the dashboard.</p>
@@ -72,6 +129,7 @@
             <li>If the property does not meet our criteria, the loan may be rejected at this stage.</li>
             <li>You’ll have options to adjust the Loan-to-Value Ratio (LVR) or add another property as additional security.</li>
         </ul>
+
         <h2>Step 3: Moving Forward with Your Application</h2>
         <h3>Review Property Details and Security Type</h3>
         <p>Once the property is accepted, you’ll review and confirm the property details and select the type of security.</p>
@@ -87,6 +145,7 @@
             <li>If the property is owned by multiple parties, add the additional owners and their details.</li>
             <li>Fill in any remaining details about the property, such as lease expiry and mortgage rank.</li>
         </ul>
+
         <h2>Step 4: Completing the Loan Application</h2>
         <h3>Upload Required Documents</h3>
         <p>With the main details completed, you’ll need to upload the necessary documents to support the application.</p>
@@ -109,9 +168,10 @@
         </ul>
         <h2>Final Steps</h2>
         <p>If everything is in order and the loan is approved, the final loan amount will be calculated, and all relevant parties will be informed. Titan Capital aims to provide a smooth, transparent process that empowers brokers to manage their loan applications efficiently and effectively.</p>
-        <p>For any assistance throughout the process, your BDM is always ready to help.</p>
+        <a href="#" class="cta-button">Contact Your BDM for Assistance</a>
     </div>
+    <footer>
+        <p>&copy; 2024 Titan Capital. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-
