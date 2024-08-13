@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titan Capital Loan Process</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -105,7 +104,7 @@
             <li>Navigate to the Titan Capital login page.</li>
             <li>Enter your username and password to access the broker dashboard.</li>
         </ul>
-
+        
         <h2>Step 2: Starting a New Loan Application</h2>
         <h3>Initiate a New Application</h3>
         <p>With your account set up, you can now begin a new loan application directly from the dashboard.</p>
@@ -175,3 +174,4 @@
     </footer>
 </body>
 </html>
+
