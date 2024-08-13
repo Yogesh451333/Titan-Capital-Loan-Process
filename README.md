@@ -6,10 +6,10 @@
     <title>Titan Capital Loan Process</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
             color: #333;
         }
         header {
@@ -20,26 +20,26 @@
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2em;
         }
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2 {
             color: #003366;
-            font-size: 1.8em;
-            border-bottom: 2px solid #eee;
+            font-size: 1.6em;
+            border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
         h3 {
             color: #003366;
-            font-size: 1.4em;
+            font-size: 1.3em;
             margin-top: 20px;
         }
         p {
@@ -52,23 +52,22 @@
             list-style: none;
         }
         ul li {
-            background: url('https://www.commbank.com.au/content/dam/commbank/img/icon-tick.svg') no-repeat left center;
-            background-size: 20px;
-            padding-left: 30px;
-            margin-bottom: 10px;
-            line-height: 1.6;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        ul li:last-child {
+            border-bottom: none;
         }
         .cta-button {
             display: inline-block;
-            padding: 12px 25px;
-            font-size: 1.1em;
+            padding: 12px 20px;
+            font-size: 1em;
             color: #fff;
             background-color: #003366;
             text-decoration: none;
             border-radius: 5px;
             margin-top: 20px;
             transition: background-color 0.3s ease;
-            text-align: center;
         }
         .cta-button:hover {
             background-color: #002244;
@@ -76,7 +75,7 @@
         footer {
             background-color: #003366;
             color: #fff;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             position: relative;
             bottom: 0;
@@ -91,94 +90,92 @@
     <div class="container">
         <h2>Step 1: Getting Started</h2>
         <h3>Receive Your Invitation</h3>
-        <p>To begin using Titan Capital’s loan application software, you’ll first receive an email invitation. This invitation contains a unique link that will guide you through the initial setup.</p>
+        <p>To start using Titan Capital’s loan application software, check your email for an invitation from us. Click on the link in the email to begin the registration process.</p>
         <ul>
-            <li>Check your email for the invitation link sent by Titan Capital.</li>
-            <li>Click on the link to start the registration process.</li>
+            <li>Check your email for the invitation link.</li>
+            <li>Click the link to start the registration.</li>
         </ul>
         
         <h3>Register and Set Up Your Login</h3>
-        <p>After clicking the invitation link, you’ll be prompted to create your account and set a password. This ensures that your access is secure and personalized.</p>
+        <p>After clicking the link, you'll be prompted to create your account and set a password to ensure secure access.</p>
         <ul>
-            <li>Enter your details (name, email, etc.) and choose a secure password.</li>
-            <li>Complete the registration by confirming your details.</li>
+            <li>Enter your details and choose a secure password.</li>
+            <li>Confirm your details to complete registration.</li>
         </ul>
         
         <h3>Log In for the First Time</h3>
-        <p>Once registered, you can log in to Titan Capital’s platform using your new credentials.</p>
+        <p>Log in to Titan Capital’s platform using your new credentials to access the broker dashboard.</p>
         <ul>
-            <li>Navigate to the Titan Capital login page.</li>
-            <li>Enter your username and password to access the broker dashboard.</li>
+            <li>Go to the login page.</li>
+            <li>Enter your username and password.</li>
         </ul>
         
         <h2>Step 2: Starting a New Loan Application</h2>
         <h3>Initiate a New Application</h3>
-        <p>With your account set up, you can now begin a new loan application directly from the dashboard.</p>
+        <p>From the dashboard, start a new loan application by selecting the appropriate type of loan.</p>
         <ul>
-            <li>Click on “New Application” to start the process.</li>
-            <li>Choose the type of loan application you want to submit (e.g., Term Loan, Business Line of Credit).</li>
-            <li>Select “Term Loan” to proceed.</li>
+            <li>Click “New Application” to begin.</li>
+            <li>Select the type of loan (e.g., Term Loan).</li>
         </ul>
         
         <h3>Agree to Terms and Conditions</h3>
-        <p>Before moving forward, you’ll need to review and agree to Titan Capital’s terms and conditions.</p>
+        <p>Review and agree to Titan Capital’s terms and conditions before proceeding.</p>
         <ul>
-            <li>Read the terms and conditions presented on the screen.</li>
-            <li>Click “Agree” to confirm and continue.</li>
+            <li>Read the terms on the screen.</li>
+            <li>Click “Agree” to continue.</li>
         </ul>
         
         <h3>Enter Property Information</h3>
-        <p>Next, you’ll need to provide details about the property being used as security for the loan.</p>
+        <p>Provide details about the property being used as security for the loan.</p>
         <ul>
-            <li>Enter the property’s address into the search field provided.</li>
-            <li>The system will automatically search for the property details in our database.</li>
-            <li>If the address is not found, you can manually enter the property details.</li>
-            <li>If the property does not meet our criteria, the loan may be rejected at this stage.</li>
-            <li>You’ll have options to adjust the Loan-to-Value Ratio (LVR) or add another property as additional security.</li>
+            <li>Enter the property address.</li>
+            <li>The system will search for property details.</li>
+            <li>If not found, enter details manually.</li>
+            <li>You can adjust the Loan-to-Value Ratio (LVR) or add another property if needed.</li>
         </ul>
         
         <h2>Step 3: Moving Forward with Your Application</h2>
         <h3>Review Property Details and Security Type</h3>
-        <p>Once the property is accepted, you’ll review and confirm the property details and select the type of security.</p>
+        <p>Review and confirm property details and select the security type.</p>
         <ul>
-            <li>Check the details auto-filled by the system.</li>
-            <li>Select the appropriate security type from the dropdown menu.</li>
-            <li>If you need to choose “Other” for security type, the application will be sent to the Credit Team for review.</li>
+            <li>Check details auto-filled by the system.</li>
+            <li>Select the appropriate security type.</li>
+            <li>If “Other” is chosen, the Credit Team will review.</li>
         </ul>
         
         <h3>Provide Borrower Information</h3>
-        <p>You’ll now enter specific details about the borrower, including financial information.</p>
+        <p>Enter details about the borrower and any additional property owners.</p>
         <ul>
-            <li>Enter borrower information such as income sources and existing debts.</li>
-            <li>If the property is owned by multiple parties, add the additional owners and their details.</li>
-            <li>Fill in any remaining details about the property, such as lease expiry and mortgage rank.</li>
+            <li>Enter income sources and existing debts.</li>
+            <li>Add additional owners if applicable.</li>
+            <li>Include details like lease expiry and mortgage rank.</li>
         </ul>
         
         <h2>Step 4: Completing the Loan Application</h2>
         <h3>Upload Required Documents</h3>
-        <p>With the main details completed, you’ll need to upload the necessary documents to support the application.</p>
+        <p>Upload necessary documents to support your application.</p>
         <ul>
-            <li>Upload documents such as the contract of sale, proof of existence, discharge forms, and IDs.</li>
-            <li>All documents should be uploaded directly through the software for security and privacy reasons.</li>
+            <li>Upload the contract of sale, proof of existence, discharge forms, and IDs.</li>
+            <li>Ensure documents are uploaded securely through the platform.</li>
         </ul>
         
         <h3>Final Review and Submission</h3>
-        <p>Before submitting, you’ll have the opportunity to review all the information you’ve entered.</p>
+        <p>Review all information before submitting the application.</p>
         <ul>
-            <li>Carefully review the entire application to ensure accuracy.</li>
-            <li>Click “Submit” to finalize and send your application to Titan Capital.</li>
+            <li>Verify all details for accuracy.</li>
+            <li>Click “Submit” to finalize your application.</li>
         </ul>
         
         <h3>Immediate Response</h3>
-        <p>Once submitted, the system will provide an immediate response:</p>
+        <p>Upon submission, you’ll receive an immediate response:</p>
         <ul>
-            <li><strong>Letter of Offer (LOO) Issued:</strong> If approved, you’ll receive an LOO.</li>
-            <li><strong>Rejected:</strong> If the loan is not approved, you’ll be notified immediately.</li>
-            <li><strong>Pending Credit Review:</strong> If further review is needed, your application will be sent to the Credit Team.</li>
+            <li><strong>Letter of Offer (LOO) Issued:</strong> If approved.</li>
+            <li><strong>Rejected:</strong> If not approved.</li>
+            <li><strong>Pending Credit Review:</strong> If further review is needed.</li>
         </ul>
         
         <h2>Final Steps</h2>
-        <p>If everything is in order and the loan is approved, the final loan amount will be calculated, and all relevant parties will be informed. Titan Capital aims to provide a smooth, transparent process that empowers brokers to manage their loan applications efficiently and effectively.</p>
+        <p>If approved, the final loan amount will be calculated, and all parties will be informed. Titan Capital ensures a smooth, transparent process for efficient loan management.</p>
         
         <a href="#" class="cta-button">Contact Your BDM for Assistance</a>
     </div>
@@ -187,6 +184,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
