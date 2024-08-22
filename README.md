@@ -1,88 +1,153 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh Poudel - Aged Care Professional</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 30px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h3 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Yogesh Poudel</h1>
+            <p>Dedicated Aged Care Professional | Aspiring Leader in Business and Technology Management</p>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Understanding the Titan Capital Loan Application Process</h1>
-        <h2>Step 1: Getting Started</h2>
-        <h3>Receive Your Invitation</h3>
-        <p>To begin using Titan Capital’s loan application software, you’ll first receive an email invitation. This invitation contains a unique link that will guide you through the initial setup.</p>
-        <ul>
-            <li>Check your email for the invitation link sent by Titan Capital.</li>
-            <li>Click on the link to start the registration process.</li>
-        </ul>
-        <h3>Register and Set Up Your Login</h3>
-        <p>After clicking the invitation link, you’ll be prompted to create your account and set a password. This ensures that your access is secure and personalized.</p>
-        <ul>
-            <li>Enter your details (name, email, etc.) and choose a secure password.</li>
-            <li>Complete the registration by confirming your details.</li>
-        </ul>
-        <h3>Log In for the First Time</h3>
-        <p>Once registered, you can log in to Titan Capital’s platform using your new credentials.</p>
-        <ul>
-            <li>Navigate to the Titan Capital login page.</li>
-            <li>Enter your username and password to access the broker dashboard.</li>
-        </ul>
-        <h2>Step 2: Starting a New Loan Application</h2>
-        <h3>Initiate a New Application</h3>
-        <p>With your account set up, you can now begin a new loan application directly from the dashboard.</p>
-        <ul>
-            <li>Click on “New Application” to start the process.</li>
-            <li>Choose the type of loan application you want to submit (e.g., Term Loan, Business Line of Credit, Credit Cards).</li>
-            <li>Select “Term Loan” to proceed.</li>
-        </ul>
-        <h3>Agree to Terms and Conditions</h3>
-        <p>Before moving forward, you’ll need to review and agree to Titan Capital’s terms and conditions.</p>
-        <ul>
-            <li>Read the terms and conditions presented on the screen.</li>
-            <li>Click “Agree” to confirm and continue.</li>
-        </ul>
-        <h3>Enter Property Information</h3>
-        <p>Next, you’ll need to provide details about the property being used as security for the loan.</p>
-        <ul>
-            <li>Enter the property’s address into the search field provided.</li>
-            <li>The system will automatically search for the property details in our database.</li>
-            <li>If the address is not found, you can manually enter the property details.</li>
-            <li>If the property does not meet our criteria, the loan may be rejected at this stage.</li>
-            <li>You’ll have options to adjust the Loan-to-Value Ratio (LVR) or add another property as additional security.</li>
-        </ul>
-        <h2>Step 3: Moving Forward with Your Application</h2>
-        <h3>Review Property Details and Security Type</h3>
-        <p>Once the property is accepted, you’ll review and confirm the property details and select the type of security.</p>
-        <ul>
-            <li>Check the details auto-filled by the system.</li>
-            <li>Select the appropriate security type from the dropdown menu.</li>
-            <li>If you need to choose “Other” for security type, the application will be sent to the Credit Team for review.</li>
-        </ul>
-        <h3>Provide Borrower Information</h3>
-        <p>You’ll now enter specific details about the borrower, including financial information.</p>
-        <ul>
-            <li>Enter borrower information such as income sources and existing debts.</li>
-            <li>If the property is owned by multiple parties, add the additional owners and their details.</li>
-            <li>Fill in any remaining details about the property, such as lease expiry and mortgage rank.</li>
-        </ul>
-        <h2>Step 4: Completing the Loan Application</h2>
-        <h3>Upload Required Documents</h3>
-        <p>With the main details completed, you’ll need to upload the necessary documents to support the application.</p>
-        <ul>
-            <li>Upload documents such as the contract of sale, proof of existence, discharge forms, and IDs.</li>
-            <li>All documents should be uploaded directly through the software for security and privacy reasons.</li>
-        </ul>
-        <h3>Final Review and Submission</h3>
-        <p>Before submitting, you’ll have the opportunity to review all the information you’ve entered.</p>
-        <ul>
-            <li>Carefully review the entire application to ensure accuracy.</li>
-            <li>Click “Submit” to finalize and send your application to Titan Capital.</li>
-        </ul>
-        <h3>Immediate Response</h3>
-        <p>Once submitted, the system will provide an immediate response:</p>
-        <ul>
-            <li><strong>Letter of Offer (LOO) Issued:</strong> If approved, you’ll receive an LOO.</li>
-            <li><strong>Rejected:</strong> If the loan is not approved, you’ll be notified immediately.</li>
-            <li><strong>Pending Credit Review:</strong> If further review is needed, your application will be sent to the Credit Team.</li>
-        </ul>
-        <h2>Final Steps</h2>
-        <p>If everything is in order and the loan is approved, the final loan amount will be calculated, and all relevant parties will be informed. Titan Capital aims to provide a smooth, transparent process that empowers brokers to manage their loan applications efficiently and effectively.</p>
-        <p>For any assistance throughout the process, your BDM is always ready to help.</p>
+        <section>
+            <h2>About Me</h2>
+            <p>As a dedicated and conscientious aged care worker with five years of hands-on experience, I am deeply committed to understanding and meeting the unique needs of my clients. My expertise lies in delivering compassionate care that enhances both physical and emotional well-being. Known for my proactive approach, I actively listen to patients, anticipate their needs, and foster a warm and welcoming environment that supports their dignity and respect.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <h3>Care Service Employee - Our Lady of Consolation</h3>
+            <p><strong>September 2019 – Present</strong></p>
+            <ul>
+                <li>Assist patients with daily living activities including mobility, toileting, feeding, and showering.</li>
+                <li>Implement rigorous infection control practices, maintaining high standards of hygiene and safety.</li>
+                <li>Provide critical emotional and psychological support to patients and their families.</li>
+                <li>Maintain and update patient records using advanced computer systems.</li>
+            </ul>
+            <h3>Care Service Employee - Opal Aged Care, Quakers Hill</h3>
+            <p><strong>August 2019 – May 2020</strong></p>
+            <ul>
+                <li>Reported changes in patient behavior to the Registered Nurse or duty in-charge.</li>
+                <li>Collaborated closely with physicians and healthcare professionals to deliver comprehensive care.</li>
+                <li>Guided patients and families on health maintenance and disease prevention strategies.</li>
+                <li>Offered consistent emotional and psychological support to enhance patient well-being.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor in Business and Technology Management</strong> - Australian School of Accounting, 2022 – Present</li>
+                <li><strong>Advanced Diploma in Leadership and Management</strong> - Crown Institute of Business and Technology, 2019 – 2021</li>
+                <li><strong>Certificate III in Aged Care</strong> - Advanced College, 2019</li>
+                <li>Completed First Aid Training, CPR Training, PPE Handling Training, and Manual Handling Training.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Key Skills</h2>
+            <ul>
+                <li>Comprehensive understanding of patient privacy, dignity, and respect.</li>
+                <li>Dedication to delivering high standards of care and maintaining a safe environment.</li>
+                <li>Adaptable in managing care for patients with Dementia and other complex needs.</li>
+                <li>Exceptional communication skills with residents, families, and healthcare teams.</li>
+                <li>Proficient in adhering to organizational protocols and policies.</li>
+                <li>Thorough knowledge of work health and safety practices.</li>
+                <li>Professional demeanor and ability to work effectively both independently and in a team.</li>
+                <li>Quick learner with a proactive attitude, remaining calm and composed in all situations.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Aspiration</h2>
+            <p>I am currently pursuing a Bachelor's in Business and Technology Management to enhance my leadership capabilities and integrate innovative solutions into healthcare. My goal is to drive advancements in care standards and operational efficiency, leveraging my extensive experience in aged care to bring transformative changes to the industry.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via <a href="mailto:yogesh_poudel@outlook.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/yogesh-poudel-3794ab194/" target="_blank">LinkedIn</a>.</p>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Yogesh Poudel. All rights reserved.</p>
+    </footer>
 </body>
 </html>
